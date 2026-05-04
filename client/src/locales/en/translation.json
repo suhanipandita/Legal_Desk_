@@ -1,0 +1,108 @@
+{
+  "app": { "name": "LegalDesk", "tagline": "AI-Powered Legal Management" },
+  "nav": {
+    "dashboard": "Dashboard",
+    "cases": "Cases",
+    "documents": "Documents",
+    "appointments": "Appointments",
+    "billing": "Billing",
+    "staff": "Staff Management",
+    "calendar": "Calendar",
+    "aiAnalyzer": "AI Analyzer",
+    "legalSearch": "Legal Search",
+    "settings": "Settings",
+    "logout": "Logout",
+    "language": "Language"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email Address",
+    "password": "Password",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "loginTitle": "Welcome Back",
+    "loginSubtitle": "Sign in to your LegalDesk account",
+    "registerTitle": "Create Account",
+    "registerSubtitle": "Join LegalDesk as a client",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "cases": {
+    "title": "My Cases",
+    "allCases": "All Cases",
+    "createCase": "Create Case",
+    "caseNumber": "Case Number",
+    "status": "Status",
+    "type": "Type",
+    "lawyer": "Lawyer",
+    "client": "Client",
+    "court": "Court",
+    "nextHearing": "Next Hearing",
+    "deadline": "Filing Deadline",
+    "timeline": "Timeline",
+    "description": "Description"
+  },
+  "status": {
+    "active": "Active",
+    "urgent": "Urgent",
+    "hearing_soon": "Hearing Soon",
+    "completed": "Completed",
+    "closed": "Closed"
+  },
+  "documents": {
+    "title": "Document Vault",
+    "upload": "Upload Document",
+    "analyze": "AI Analyze",
+    "chat": "Chat with Document",
+    "download": "Download",
+    "share": "Share",
+    "sign": "Sign",
+    "signed": "Signed ✓"
+  },
+  "appointments": {
+    "title": "Appointments",
+    "book": "Book Appointment",
+    "confirmed": "Confirmed",
+    "pending": "Pending",
+    "cancelled": "Cancelled"
+  },
+  "billing": {
+    "title": "Billing & Invoices",
+    "hours": "Billable Hours",
+    "rate": "Hourly Rate",
+    "expenses": "Expenses",
+    "total": "Total Amount",
+    "generateInvoice": "Generate Invoice",
+    "downloadPdf": "Download PDF"
+  },
+  "admin": {
+    "firmDashboard": "Firm Dashboard",
+    "totalActive": "Total Active Cases",
+    "closedMonth": "Closed This Month",
+    "revenue": "Total Revenue",
+    "pendingInvoices": "Pending Invoices",
+    "workload": "Lawyer Workload"
+  },
+  "ai": {
+    "analyzing": "Analyzing document with AI...",
+    "summary": "Summary",
+    "parties": "Parties",
+    "keyDates": "Key Dates",
+    "obligations": "Obligations",
+    "riskyClauses": "Risky Clauses",
+    "missingTerms": "Missing Terms",
+    "askQuestion": "Ask a question about this document...",
+    "send": "Send"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "search": "Search...",
+    "actions": "Actions"
+  }
+}

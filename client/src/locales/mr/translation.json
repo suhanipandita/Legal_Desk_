@@ -1,0 +1,108 @@
+{
+  "app": { "name": "लीगलडेस्क", "tagline": "AI-सक्षम कानूनी व्यवस्थापन" },
+  "nav": {
+    "dashboard": "डॅशबोर्ड",
+    "cases": "खटले",
+    "documents": "कागदपत्रे",
+    "appointments": "भेटी",
+    "billing": "बिलिंग",
+    "staff": "कर्मचारी व्यवस्थापन",
+    "calendar": "दिनदर्शिका",
+    "aiAnalyzer": "AI विश्लेषक",
+    "legalSearch": "कायदा शोध",
+    "settings": "सेटिंग्ज",
+    "logout": "बाहेर पडा",
+    "language": "भाषा"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "register": "नोंदणी",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "name": "पूर्ण नाव",
+    "phone": "फोन नंबर",
+    "loginTitle": "पुन्हा स्वागत",
+    "loginSubtitle": "तुमच्या लीगलडेस्क खात्यात साइन इन करा",
+    "registerTitle": "खाते तयार करा",
+    "registerSubtitle": "ग्राहक म्हणून लीगलडेस्कमध्ये सामील व्हा",
+    "noAccount": "खाते नाही?",
+    "hasAccount": "आधीच खाते आहे?"
+  },
+  "cases": {
+    "title": "माझे खटले",
+    "allCases": "सर्व खटले",
+    "createCase": "नवीन खटला",
+    "caseNumber": "खटला क्रमांक",
+    "status": "स्थिती",
+    "type": "प्रकार",
+    "lawyer": "वकील",
+    "client": "ग्राहक",
+    "court": "न्यायालय",
+    "nextHearing": "पुढील सुनावणी",
+    "deadline": "दाखल करण्याची अंतिम तारीख",
+    "timeline": "कालक्रम",
+    "description": "वर्णन"
+  },
+  "status": {
+    "active": "सक्रिय",
+    "urgent": "तातडीचे",
+    "hearing_soon": "लवकरच सुनावणी",
+    "completed": "पूर्ण",
+    "closed": "बंद"
+  },
+  "documents": {
+    "title": "कागदपत्र भांडार",
+    "upload": "कागदपत्र अपलोड करा",
+    "analyze": "AI विश्लेषण",
+    "chat": "कागदपत्रासोबत चॅट",
+    "download": "डाउनलोड",
+    "share": "शेअर करा",
+    "sign": "स्वाक्षरी",
+    "signed": "स्वाक्षरित ✓"
+  },
+  "appointments": {
+    "title": "भेटी",
+    "book": "भेट बुक करा",
+    "confirmed": "पुष्टी",
+    "pending": "प्रलंबित",
+    "cancelled": "रद्द"
+  },
+  "billing": {
+    "title": "बिलिंग आणि पावत्या",
+    "hours": "बिल करण्यायोग्य तास",
+    "rate": "तासाचा दर",
+    "expenses": "खर्च",
+    "total": "एकूण रक्कम",
+    "generateInvoice": "पावती तयार करा",
+    "downloadPdf": "PDF डाउनलोड करा"
+  },
+  "admin": {
+    "firmDashboard": "फर्म डॅशबोर्ड",
+    "totalActive": "एकूण सक्रिय खटले",
+    "closedMonth": "या महिन्यात बंद",
+    "revenue": "एकूण उत्पन्न",
+    "pendingInvoices": "प्रलंबित पावत्या",
+    "workload": "वकील कामाचा भार"
+  },
+  "ai": {
+    "analyzing": "AI सह कागदपत्र विश्लेषण...",
+    "summary": "सारांश",
+    "parties": "पक्षकार",
+    "keyDates": "महत्त्वाच्या तारखा",
+    "obligations": "कर्तव्ये",
+    "riskyClauses": "धोकादायक कलमे",
+    "missingTerms": "गहाळ अटी",
+    "askQuestion": "या कागदपत्राबद्दल प्रश्न विचारा...",
+    "send": "पाठवा"
+  },
+  "common": {
+    "save": "जतन करा",
+    "cancel": "रद्द करा",
+    "delete": "हटवा",
+    "edit": "संपादित करा",
+    "loading": "लोड होत आहे...",
+    "noData": "डेटा उपलब्ध नाही",
+    "search": "शोधा...",
+    "actions": "कृती"
+  }
+}
