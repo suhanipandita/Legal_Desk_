@@ -3,7 +3,7 @@ const { ObjectId } = require('mongodb');
 const multer = require('multer');
 const { getDB } = require('../config/db');
 const { protect, requireRole } = require('../middleware/auth');
-const { analyzeDocument, chatWithDocument } = require('../services/claudeService');
+const { analyzeDocument, chatWithDocument } = require('../services/geminiService');
 
 const router = express.Router();
 
