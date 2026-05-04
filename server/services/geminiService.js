@@ -13,23 +13,18 @@ const getClient = () => {
 /**
  * Analyze a legal document using Gemini
  */
-async function analyzeDocument(extractedText) {
+async function analyzeDocument(extractedText, targetLanguage = 'English') { // <-- Add parameter
   const model = getClient().getGenerativeModel({ model: 'gemini-2.5-flash' });
 
   const prompt = `You are an expert legal AI assistant for Indian law.
-Analyze this legal document and return EXACTLY this structure:
+Analyze this legal document and return EXACTLY this structure. 
+CRITICAL: You MUST write your entire response and all analysis in ${targetLanguage}.
 
-SUMMARY: [3-5 sentence plain-English overview]
-
+SUMMARY: [3-5 sentence plain-language overview]
 PARTIES: [all named individuals and organizations]
-
 KEY DATES: [every date and deadline in the document]
-
 OBLIGATIONS: [what each party must do]
-
 RISKY CLAUSES: [unusual, one-sided, or potentially harmful clauses]
-
-MISSING TERMS: [standard clauses absent from this document]
 
 Document:
 ${extractedText}`;

@@ -147,7 +147,8 @@ router.post('/:id/analyze', protect, requireRole('lawyer'), async (req, res) => 
     }
     if (!text) text = req.body.text || 'Sample document for analysis.';
 
-    const summary = await analyzeDocument(text);
+    const userLanguage = req.user.language === 'mr' ? 'Marathi' : 'English';
+    const summary = await analyzeDocument(text, userLanguage);
     await db.collection('documents').updateOne({ _id: doc._id }, { $set: { aiSummary: summary } });
     res.json({ summary });
   } catch (error) {
